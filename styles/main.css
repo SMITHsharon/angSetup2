@@ -1,2 +1,18 @@
 body {
-  background-color: lightblue; }
+  background-size: cover;
+  background-image: url("/images/blue chicken.jpeg");
+  font: 100% "Acme", sans-serif; }
+
+.pageHeader {
+  text-align: right;
+  margin-right: 50px; }
+
+.buttonDiv li {
+  list-style: none;
+  padding-top: 15px; }
+
+.showFoodImage .panel-heading {
+  font-size: 2em; }
+
+.showFoodImage .panel img {
+  max-width: 100%; }

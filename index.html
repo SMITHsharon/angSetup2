@@ -1,17 +1,58 @@
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>NSS Callan's Fave Foods</title>
+	<title>Weird Foods for Callan</title>
 
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
 
-<body>
-	<h1>Callan's Fave Foods</h1>
+<body ng-app="callanFoods">
 
-  
+	<h1 class="pageHeader">Weird Foods for Callan</h1>
+
+	<div ng-controller="FoodCtrl">
+		<div class="buttonDiv">
+			<ul>
+				<li><button class="btn btn-default" ng-click="burgerArt()">Golden Cap Burger</button></li>
+				<li><button class="btn btn-default" ng-click="monsterArt()">Monster Burger</button></li>
+				<li><button class="btn btn-default" ng-click="riceArt()">Rice Burger</button></li>
+			</ul>
+		</div>
+
+
+		<div class="showFoodImage">
+			
+			<div class="col-xs-4 col-xs-offset-4">
+
+				<div ng-show="showGolden">
+					<div class="panel panel-warning">
+				      <div class="panel-heading">Golden Cap Burger</div>
+				      <div class="panel-body"><img src="./images/burger.jpg"</div>
+				    </div>
+				 </div>
+
+				 <div ng-show="showMonster">
+					<div class="panel panel-warning">
+				      <div class="panel-heading">Monster Burger</div>
+				      <div class="panel-body"><img src="./images/burger art.jpeg"</div>
+				    </div>
+				</div>
+
+				 <div ng-show="showRice">
+					<div class="panel panel-warning">
+				      <div class="panel-heading">Rice Burger</div>
+				      <div class="panel-body"><img src="./images/rice burger.jpeg"</div>
+				    </div>
+				</div>
+
+
+				</div> <!-- .col -->
+			</div>
+		</div> <!-- .showFood -->
+	</div> <!-- ng-controller="FoodCtrl" -->
+
+	
 	<!-- 3rd party scripts -->
 	<script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
