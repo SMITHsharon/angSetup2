@@ -12,44 +12,48 @@
 	<h1 class="pageHeader">Weird Foods for Callan</h1>
 
 	<div ng-controller="FoodCtrl">
-		<div class="buttonDiv">
-			<ul>
-				<li><button class="btn btn-default" ng-click="burgerArt()">Golden Cap Burger</button></li>
-				<li><button class="btn btn-default" ng-click="monsterArt()">Monster Burger</button></li>
-				<li><button class="btn btn-default" ng-click="riceArt()">Rice Burger</button></li>
-			</ul>
-		</div>
+		<div class="row">
+			<div class="buttonDiv">
+				<div class="col-xs-2">
+					<ul>
+						<li><button class="btn btn-default" ng-click="burgerArt()">Golden Cap Burger</button></li>
+						<li><button class="btn btn-default" ng-click="monsterArt()">Monster Burger</button></li>
+						<li><button class="btn btn-default" ng-click="riceArt()">Rice Burger</button></li>
+						<li><button class="btn btn-default" ng-click="clearAll()">Clear All</button></li>
+					</ul>
+				</div> <!-- .col -->
+			</div> <!-- buttonDiv -->
 
 
-		<div class="showFoodImage">
-			
-			<div class="col-xs-4 col-xs-offset-4">
+			<div class="showFoodImage">
+				
+				<div class="col-xs-4 col-xs-offset-2 foodPanels">
 
-				<div ng-show="showGolden">
-					<div class="panel panel-warning">
-				      <div class="panel-heading">Golden Cap Burger</div>
-				      <div class="panel-body"><img src="./images/burger.jpg"</div>
-				    </div>
-				 </div>
+					 <div ng-show="showGolden">
+						<div class="panel panel-warning">
+						      <div class="panel-heading">Golden Cap Burger</div>
+						      <div class="panel-body"><img src="./images/burger.jpg"></div>
+					    </div>
+					 </div>
 
-				 <div ng-show="showMonster">
-					<div class="panel panel-warning">
-				      <div class="panel-heading">Monster Burger</div>
-				      <div class="panel-body"><img src="./images/burger art.jpeg"</div>
-				    </div>
-				</div>
+					 <div ng-show="showMonster">
+						<div class="panel panel-warning">
+					      <div class="panel-heading">Monster Burger</div>
+					      <div class="panel-body"><img src="./images/burger art.jpeg"></div>
+					    </div>
+					 </div>
 
-				 <div ng-show="showRice">
-					<div class="panel panel-warning">
-				      <div class="panel-heading">Rice Burger</div>
-				      <div class="panel-body"><img src="./images/rice burger.jpeg"</div>
-				    </div>
-				</div>
+					 <div ng-show="showRice">
+						<div class="panel panel-warning">
+					      <div class="panel-heading">Rice Burger</div>
+					      <div class="panel-body"><img src="./images/rice burger.jpeg"></div>
+					    </div>
+					 </div>
 
 
 				</div> <!-- .col -->
-			</div>
-		</div> <!-- .showFood -->
+			</div> <!-- .showFoodImage -->
+		</div> <!-- .row -->
 	</div> <!-- ng-controller="FoodCtrl" -->
 
 	
