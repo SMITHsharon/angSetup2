@@ -1,5 +1,38 @@
-@import "color";
+@import "fonts";
 
 body {
-	background-color: $lightblue;
+	
+	background-size: cover;
+	background-image: url("/images/blue chicken.jpeg");
+	font: 100% $font-stack;
+}
+
+.pageHeader {
+
+	text-align: right;
+	margin-right: 50px;
+}
+
+
+.buttonDiv {
+
+	li {
+		list-style: none;
+		padding-top: 15px;
+	}
+}
+
+
+.showFoodImage {
+
+	.panel-heading {
+		font-size: 2em;
+	}
+
+
+
+	.panel img {
+		width: 100%;
+		margin: auto;
+	}
 }
