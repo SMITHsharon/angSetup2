@@ -8,7 +8,7 @@ This was an exercise to walk through project setup, layering in Angular, and the
 ![Callan's Fave Foods on Launch](https://raw.githubusercontent.com/SMITHsharon/angSetup2/callanFoods/screens/Callan%20Foods%20on%20Launch.png)
 
 #### Callan's Fave Foods on Monster Burder Click 
-![Callan's Fave Foods on Monster Burder Click]()
+![Callan's Fave Foods on Monster Burder Click](https://raw.githubusercontent.com/SMITHsharon/angSetup2/callanFoods/screens/Callan%20Foods%20on%20Click%20Monster%20Burger.png)
 
 ### Project Specs
 - Complete project setup, including jQuery, Bootstrap, SASS, Angular, Grunt
