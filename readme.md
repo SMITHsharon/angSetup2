@@ -2,7 +2,7 @@
 
 ### Project Description 
 
-This was an exercise to walk through project setup, layering in Angular, and then coding some simple DOM output on Callan's favorite foods, plus bizarre background. 
+This was an exercise to walk through project setup, layering in Angular, and then coding some simple DOM output on Callan's favorite foods (morphed into weird foods), plus bizarre background. 
 
 #### Callan's Fave Foods on Launch 
 ![Callan's Fave Foods on Launch](https://raw.githubusercontent.com/SMITHsharon/angSetup2/callanFoods/screens/Callan%20Foods%20on%20Launch.png)
